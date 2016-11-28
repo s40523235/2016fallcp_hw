@@ -18,7 +18,7 @@
 <v t="leo.20151213173830.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
-<v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
+<v t="amd.20151215180106.1"><vh>設定與開發</vh>
 <v t="amd.20151216151325.1" a="E"><vh>@clean index.html</vh>
 <v t="amd.20161004083800.1" a="E"><vh>html</vh>
 <v t="amd.20161004083800.2"><vh>head</vh></v>
@@ -149,7 +149,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151213230723.1"><vh>Pelican 設定</vh>
+<v t="leo.20151213230723.1" a="E"><vh>Pelican 設定</vh>
 <v t="leo.20151213230957.1"><vh>文章 Date 設定</vh></v>
 <v t="leo.20151213230729.1"><vh>使用 summary plugin</vh></v>
 </v>
@@ -166,12 +166,15 @@
 <v t="amd.20160727114506.1" a="E"><vh>201609</vh>
 <v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
 <v t="leo.20161014142409.1"><vh>@edit 20161014.md</vh></v>
-<v t="leo.20161024160947.1"><vh>@edit 20161024.md</vh></v>
-<v t="leo.20161031141953.1"><vh>@edit 20161031.md</vh></v>
+<v t="leo.20161031141953.1"><vh>@edit 20161104.md</vh></v>
+<v t="yen.20161105200835.1"><vh>@edit 20161105.md</vh></v>
+<v t="leo.20161114144444.1"><vh>@edit 20161114.md</vh></v>
+<v t="leo.20161121143827.1"><vh>@edit 20161121.md</vh></v>
+<v t="leo.20161121164118.1"><vh>@edit 20161122.md</vh></v>
 </v>
 </v>
 </v>
-<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
 <v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -179,6 +182,15 @@
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
 <v t="yen.20161022111056.1"><vh>@button https server</vh></v>
 <v t="yen.20161022151749.1"><vh>產生 .key 與 .crt</vh></v>
+<v t="yen.20161105200127.1" a="E"><vh>選課人員名單</vh>
+<v t="yen.20161105200140.1"><vh>@edit a.txt</vh></v>
+<v t="yen.20161105200241.1"><vh>@edit b.txt</vh></v>
+</v>
+<v t="yen.20161105200145.1" a="E"><vh>分組名單</vh>
+<v t="yen.20161105200154.1"><vh>@edit agroup.txt</vh></v>
+<v t="yen.20161105200234.1"><vh>@edit bgroup.txt</vh></v>
+</v>
+<v t="leo.20161121205449.1"><vh>Found All:A major</vh></v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -307,10 +319,10 @@ print("hello")
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [s40523235](http://chiamingyen.github.io/kmolab/blog/)
+Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
 &lt;/small&gt;
 
-[s40523235](blog/index.html)
+[blog](blog/index.html)
 
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
@@ -475,6 +487,35 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="leo.20161121205449.1"># ignore-case, head, body
+--------------------@edit 20161122.md
+body: ctx.fillText("A major", 10, 30)
+
+--------------------@edit 20161122.md
+body: #A major
+
+--------------------@edit 20161122.md
+body: ctx.fillText("A major", 10, 30)
+
+--------------------@edit 20161122.md
+body: #A major圓1
+
+--------------------@edit 20161122.md
+body: #A major圓2
+
+--------------------@edit 20161122.md
+body: #A major圓3
+
+--------------------@edit 20161122.md
+body: #A major數1
+
+--------------------@edit 20161122.md
+body: #A major數2
+
+--------------------@edit 20161122.md
+body: #A major數3
+
+</t>
 <t tx="yen.20161011114704.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1043,5 +1084,7 @@ make.start()</t>
 <t tx="yen.20161022151749.1">sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt
 
 </t>
+<t tx="yen.20161105200127.1"></t>
+<t tx="yen.20161105200145.1"></t>
 </tnodes>
 </leo_file>

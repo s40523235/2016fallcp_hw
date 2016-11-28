@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>創造力 - 2016Fall CPB 課程網誌 (虎尾科大MDE)</title>
+    <title>W11 Brython 繪圖範例1 - 2016Fall CPB 課程網誌 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,27 +166,32 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
+<link rel="canonical" href="./w11-brython-hui-tu-fan-li-1.html">
 
-    <meta name="author" content="s40523235" />
-    <meta name="keywords" content="創造力" />
+        <meta name="author" content="yen" />
+        <meta name="keywords" content="Brython" />
+        <meta name="description" content="window.onload=function(){ brython(1); } from browser import document as doc from browser import html import math import re # 準備繪圖畫布 canvas = doc[&#34;japanflag3&#34;] container = doc[&#34;container3&#34;] ctx = canvas.getContext(&#34;2d&#34;) canvas = doc[&#34;japanflag3&#34;] container ..." />
 
-    <!-- Open Graph tags -->
         <meta property="og:site_name" content="2016Fall CPB 課程網誌 (虎尾科大MDE)" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="2016Fall CPB 課程網誌 (虎尾科大MDE)"/>
-        <meta property="og:url" content=".."/>
-        <meta property="og:description" content="2016Fall CPB 課程網誌 (虎尾科大MDE)"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="W11 Brython 繪圖範例1"/>
+        <meta property="og:url" content="./w11-brython-hui-tu-fan-li-1.html"/>
+        <meta property="og:description" content="window.onload=function(){ brython(1); } from browser import document as doc from browser import html import math import re # 準備繪圖畫布 canvas = doc[&#34;japanflag3&#34;] container = doc[&#34;container3&#34;] ctx = canvas.getContext(&#34;2d&#34;) canvas = doc[&#34;japanflag3&#34;] container ..."/>
+        <meta property="article:published_time" content="2016-11-22" />
+            <meta property="article:section" content="Course" />
+            <meta property="article:tag" content="Brython" />
+            <meta property="article:author" content="yen" />
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="../theme/css/bootstrap.united.min.css" type="text/css"/>
-    <link href="../theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="../theme/css/pygments/monokai.css" rel="stylesheet">
-    <link href="../theme/tipuesearch/tipuesearch.css" rel="stylesheet">
-    <link rel="stylesheet" href="../theme/css/style.css" type="text/css"/>
+    <link href="./theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
 
-        <link href="../feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="2016Fall CPB 課程網誌 (虎尾科大MDE) ATOM Feed"/>
 
 <script type="text/javascript" src="http://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
@@ -248,28 +253,28 @@ init_mathjax();
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="../" class="navbar-brand">
+            <a href="./" class="navbar-brand">
 2016Fall CPB 課程網誌 (虎尾科大MDE)            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li><a href="../pages/about/">
+                         <li><a href="./pages/about/">
                              About
                           </a></li>
-                        <li >
-                            <a href="../category/course.html">Course</a>
+                        <li class="active">
+                            <a href="./category/course.html">Course</a>
                         </li>
                         <li >
-                            <a href="../category/misc.html">Misc</a>
+                            <a href="./category/misc.html">Misc</a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><span>
-                <form class="navbar-search" action="../search.html">
+                <form class="navbar-search" action="./search.html">
                   <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
                 </form></span>
               </li>
-              <li><a href="../archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -281,14 +286,456 @@ init_mathjax();
     <div class="row">
         <div class="col-sm-9">
 
-            <article>
-                <h2><a href="../2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html">2016Fall 機械設計主題教學</a></h2>
-                <div class="summary"><p>知識管理與最佳化應用實驗室試圖利用計算機程式、網際內容管理、電腦輔助設計實習與協同產品設計實習等課程, 進行與機械設計相關的主題式教學, 其中包含強化創造力的教學、令學員熟習六種工程表達方式, 並且俱備融入協同設計所需要的四大面向知識與技能.</p>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./w11-brython-hui-tu-fan-li-1.html"
+                       rel="bookmark"
+                       title="Permalink to W11 Brython 繪圖範例1">
+                        W11 Brython 繪圖範例1
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2016-11-22T12:00:00+08:00"> 週二 22 十一月 2016</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/yen.html"><i class="fa fa-user"></i> yen</a>
 
-                    <a class="btn btn-default btn-xs" href="../2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html">more ...</a>
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/brython.html">Brython</a>
+    
+</footer><!-- /.post-info -->                    </div>
                 </div>
-            </article>
-            <hr/>
+                <!-- 導入 Brython 標準程式庫 -->
+
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫指法 -->
+
+<canvas id="japanflag3" width="600" height="500"></canvas>
+
+<div id="container3"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+import re
+# 準備繪圖畫布
+canvas = doc["japanflag3"]
+container = doc["container3"]
+ctx = canvas.getContext("2d")
+
+canvas = doc["japanflag3"]
+container = doc["container3"]
+ctx = canvas.getContext("2d")
+# 以下可以利用 ctx 物件進行畫圖
+def background(x, y, xinc, yinc, xnum, ynum, ctx):
+    # 水平線
+    for i in range(ynum+1):
+        ctx.beginPath()
+    # 設定線的寬度為 1 個單位
+        if i == 0:
+            ctx.lineWidth = 7
+        else:
+            ctx.lineWidth = 1
+        ctx.moveTo(x-1, y+i*yinc)
+        ctx.lineTo(x+xnum*xinc+1, y+i*yinc)
+        # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+        ctx.strokeStyle = " rgb(128, 74, 0)"
+        ctx.stroke()
+        ctx.closePath()
+
+    # 垂直線
+    for i in range(xnum+1):
+        ctx.beginPath()
+    # 設定線的寬度為 1 個單位
+        ctx.lineWidth = 1
+        ctx.moveTo(x+i*xinc, y)
+        ctx.lineTo(x+i*xinc, y+ynum*yinc)
+        # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+        ctx.strokeStyle = " rgb(128, 74, 0)"
+        ctx.stroke()
+        ctx.closePath()
+    ctx.closePath()
+
+background(10, 55, 20, 30, 5, 4, ctx)
+background(130, 55, 20, 30, 5, 4, ctx)
+background(250, 55, 20, 30, 5, 4, ctx)
+background(10, 235, 20, 30, 5, 4, ctx)
+background(130, 235, 20, 30, 5, 4, ctx)
+background(250, 235, 20, 30, 5, 4, ctx)
+
+def xx(x,y,ctx):
+    ctx.beginPath()
+    ctx.moveTo(x, y)
+    ctx.lineTo(x+10, y+10)
+    ctx.moveTo(x+10, y)
+    ctx.lineTo(x, y+10)
+    ctx.lineWidth =3
+    ctx.strokeStyle = "black"
+    ctx.stroke()
+    ctx.closePath()
+
+def oo(x,y,ctx):
+    ctx.beginPath()
+    ctx.arc(x, y, 7, 0, 2*math.pi, False)
+    ctx.lineWidth =3
+    ctx.strokeStyle = "black"
+    ctx.stroke()
+    ctx.closePath()
+
+#A major
+ctx.beginPath()
+ctx.fillStyle = 'black'
+ctx.strokeStyle = "black"
+ctx.font = "20px Arial"
+ctx.fillText("A major", 10, 30)
+#A major圓1
+ctx.beginPath()
+ctx.arc(50, 100, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#A major圓2
+ctx.beginPath()
+ctx.arc(70, 100, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#A major圓3
+ctx.beginPath()
+ctx.arc(90, 100, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#A major數1
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("1", 46.5, 104.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#A major數2
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("2", 66.5, 102.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#A major數3
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("3", 86.5, 104.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+# o
+oo(30,40,ctx)
+oo(110,40,ctx)
+# x
+xx(7,37,ctx)
+
+
+#C major
+ctx.beginPath()
+ctx.fillStyle = 'black'
+ctx.strokeStyle = "black"
+ctx.font = "20px Arial"
+ctx.fillText("C major", 130, 30)
+#C major圓1
+ctx.beginPath()
+ctx.arc(210, 71, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#C major圓2
+ctx.beginPath()
+ctx.arc(170, 100, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#C major圓3
+ctx.beginPath()
+ctx.arc(150, 130, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#C major數1
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("1", 206.5, 75.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#C major數2
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("2", 166.5, 104.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#C major數3
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("3", 146.5, 134.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+# o
+oo(190,40,ctx)
+oo(230,40,ctx)
+# x
+xx(127,37,ctx)
+
+
+#G major
+ctx.beginPath()
+ctx.fillStyle = 'black'
+ctx.strokeStyle = "black"
+ctx.font = "20px Arial"
+ctx.fillText("G major", 250, 30)
+#G major圓1
+ctx.beginPath()
+ctx.arc(270, 100, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#G major圓2
+ctx.beginPath()
+ctx.arc(250, 130, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#G major圓3
+ctx.beginPath()
+ctx.arc(330, 130, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#G major圓4
+ctx.beginPath()
+ctx.arc(350, 130, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#G major數1
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("1", 266.5, 104.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#G major數2
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("2", 246.5, 134.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#G major數3
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("3", 326.5, 134.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#G major數4
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("4", 346.5, 134.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+# o
+oo(290,40,ctx)
+oo(310,40,ctx)
+
+
+#D major
+ctx.beginPath()
+ctx.fillStyle = 'black'
+ctx.strokeStyle = "black"
+ctx.font = "20px Arial"
+ctx.fillText("D major", 10, 210)
+#D major圓1
+ctx.beginPath()
+ctx.arc(70, 280, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#D major圓2
+ctx.beginPath()
+ctx.arc(90, 310, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#D major圓3
+ctx.beginPath()
+ctx.arc(110, 280, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#D major數1
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("1", 66.5, 284.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#D major數2
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("2", 86.5, 314.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#D major數3
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("3", 106.5, 284.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+# o
+oo(50,220,ctx)
+# x
+xx(7,217,ctx)
+xx(27,217,ctx)
+
+
+#E major
+ctx.beginPath()
+ctx.fillStyle = 'black'
+ctx.strokeStyle = "black"
+ctx.font = "20px Arial"
+ctx.fillText("E major", 130, 210)
+#E major圓1
+ctx.beginPath()
+ctx.arc(190, 250, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#E major圓2
+ctx.beginPath()
+ctx.arc(150, 280, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#E major圓3
+ctx.beginPath()
+ctx.arc(170, 280, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#E major數1
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("1", 186.5, 254.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#E major數2
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("2", 146.5, 284.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#E major數3
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("3", 166.5, 284.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+# o
+oo(210,220,ctx)
+oo(230,220,ctx)
+# x
+xx(127,217,ctx)
+
+
+#Cmaj7
+ctx.beginPath()
+ctx.fillStyle = 'black'
+ctx.strokeStyle = "black"
+ctx.font = "20px Arial"
+ctx.fillText("Cmaj7", 250, 210)
+#Cmaj7圓1
+ctx.beginPath()
+ctx.arc(290, 280, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#Cmaj7圓2
+ctx.beginPath()
+ctx.arc(270, 310, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#Cmaj7數1
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("1", 286.5, 284.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+#Cmaj7數2
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("2", 266.5, 314.5)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+# o
+oo(310,220,ctx)
+oo(330,220,ctx)
+oo(350,220,ctx)
+# x
+xx(247,217,ctx)
+</script>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
 
         </div>
         <div class="col-sm-3" id="sidebar">
@@ -300,29 +747,49 @@ init_mathjax();
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="../2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html">
-                            2016Fall 機械設計主題教學
+                        <a href="./w11-brython-hui-tu-fan-li-1.html">
+                            W11 Brython 繪圖範例1
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./w11-brython-hui-tu-fan-li.html">
+                            W11 Brython 繪圖範例
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./2016fall-cheng-shi-lian-xi-ti-1234578.html">
+                            2016Fall 程式練習題-1234578
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./2016fall-cheng-shi-lian-xi-ti-1234.html">
+                            2016Fall 程式練習題-1234
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./2016fall-cheng-shi-lian-xi-ti.html">
+                            2016Fall 程式練習題
                         </a>
                     </li>
                 </ul>
             </li>
 
-            <li class="list-group-item"><a href="../categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+            <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
                 <ul class="list-group" id="categories">
                     <li class="list-group-item">
-                        <a href="../category/course.html">
+                        <a href="./category/course.html">
                             <i class="fa fa-folder-open fa-lg"></i> Course
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="../category/misc.html">
+                        <a href="./category/misc.html">
                             <i class="fa fa-folder-open fa-lg"></i> Misc
                         </a>
                     </li>
                 </ul>
             </li>
 
-            <li class="list-group-item"><a href="../tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+            <li class="list-group-item"><a href="./tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group list-inline tagcloud" id="tags">
                 </ul>
             </li>
@@ -368,13 +835,13 @@ init_mathjax();
       </div>
    </div>
 </footer>
-<script src="../theme/js/jquery.min.js"></script>
+<script src="./theme/js/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../theme/js/bootstrap.min.js"></script>
+<script src="./theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="../theme/js/respond.min.js"></script>
+<script src="./theme/js/respond.min.js"></script>
 
 
 </body>

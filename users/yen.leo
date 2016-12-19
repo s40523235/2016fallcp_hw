@@ -194,7 +194,7 @@
 </v>
 <v t="leo.20161121205449.1"><vh>Found All:A major</vh></v>
 <v t="leo.20161219163013.2" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20161219163013.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161219163013.3" a="E"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
 <v t="leo.20161219163013.4"><vh>old:封面投影片內容</vh></v>
 <v t="leo.20161219163013.5"><vh>new:封面投影片內容</vh></v>
 </v>
@@ -560,10 +560,10 @@ Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [s40523235](http://chiamingyen.github.io/kmolab/blog/)
+Created by [s40523235](https://s40523235.github.io/2016fallcp_hw/blog/)
 &lt;/small&gt;
 
-[s40523235](blog/index.html)
+
 
 </t>
 <t tx="yen.20161011114704.1">&lt;section data-markdown&gt;

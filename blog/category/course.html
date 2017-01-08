@@ -282,6 +282,41 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
+                <h2><a href="../w16cai-shu-zi-you-xi.html">W16猜數字遊戲</a></h2>
+                <div class="summary"><!-- 導入 Brython 標準程式庫 -->
+
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- 以下實際利用  Brython  -->
+
+<div id="id3"></div>
+
+<script type="text/python3">
+from browser import document
+from browser import html
+import random
+
+id3 = document["id3"]
+def guess(ev):
+    # 清除 id3 中的內容
+    id3.clear()
+    id3 <= "開始玩猜數字遊戲" + html.BR()
+    標準答案 = random.randint(1 ...</script></!--></!--></!-->
+                    <a class="btn btn-default btn-xs" href="../w16cai-shu-zi-you-xi.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
                 <h2><a href="../w14xin-de.html">W14心得</a></h2>
                 <div class="summary"><p>建立leo
 
@@ -353,6 +388,11 @@ container ...</script></!--></!--></!-->
 
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="../w16cai-shu-zi-you-xi.html">
+                            W16猜數字遊戲
+                        </a>
+                    </li>
                     <li class="list-group-item">
                         <a href="../w14xin-de.html">
                             W14心得
